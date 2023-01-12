@@ -1,0 +1,14 @@
+.daily{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+    width: 13%;
+    margin: 1.5vh;
+    background-color: rgb(35,35,35);
+    border-radius: 10px;
+}
+
+.title{
+    margin: 1vh;
+}

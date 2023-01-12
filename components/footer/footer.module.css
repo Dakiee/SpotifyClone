@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    padding: 1vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    align-items: center;
+    background-color: rgb(24,24,24);
+    height: 11vh;
+}
+
+.music{
+    padding-left: 2vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: white;
+    margin-right: 4vh;
+}
+
+.text{
+    color: gray;
+    font-size: 12px;
+}

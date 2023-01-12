@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.container {
+  font-family: "Rubik", sans-serif;
+  margin-top: 2vh;
+  margin-right: 3vh;
+  margin-left: 3vh;
+  width: 100%;
+  color: white;
+  height: 87vh;
+  overflow: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  color: white;
+}
+
+.album{
+  margin-top: 4vh;
+}
+
+.daily{
+  margin-top: 2vh;
+}
+
+.mix{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.albums {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container::-webkit-scrollbar {
+  width: 18px;
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
